@@ -1,0 +1,23 @@
+{
+  "name": "etoolhubfe",
+  "version": "1.0.0",
+  "description": "front end",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenbiz/etoolhubfe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveenbiz/etoolhubfe/issues"
+  },
+  "homepage": "https://praveenbiz.github.io/etoolhubfe",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

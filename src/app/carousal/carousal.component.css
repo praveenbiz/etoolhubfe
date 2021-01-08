@@ -1,0 +1,9 @@
+#carouselCaptions .carousel-inner{
+
+    height: 500px;
+}   
+.carousel-inner .carousel-item img{
+
+    min-height: 500px;
+    max-height: 500px;
+}
