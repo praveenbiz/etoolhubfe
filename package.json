@@ -19,5 +19,9 @@
   "homepage": "https://praveenbiz.github.io/etoolhubfe",
   "dependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {}
 }
