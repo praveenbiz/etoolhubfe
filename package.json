@@ -4,6 +4,11 @@
   "description": "front end",
   "main": "index.js",
   "scripts": {
+    "ng": "ng",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
