@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/etoolhub",
+            "outputPath": "dist/etoolhubfe",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "etoolhub:build"
+            "browserTarget": "etoolhubfe:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "etoolhub:build:production"
+              "browserTarget": "etoolhubfe:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "etoolhub:build"
+            "browserTarget": "etoolhubfe:build"
           }
         },
         "test": {
@@ -115,18 +115,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "etoolhub:serve"
+            "devServerTarget": "etoolhubfe:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "etoolhub:serve:production"
+              "devServerTarget": "etoolhubfe:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "etoolhub",
+  "defaultProject": "etoolhubfe",
   "cli": {
     "analytics": false
   }

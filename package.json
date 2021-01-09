@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "homepage": "https://praveenbiz.github.io/etoolhubfe",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d dist -b master"
+    "deploy": "gh-pages -d dist"
  },
   "private": true,
   "dependencies": {
