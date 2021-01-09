@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "homepage": "https://praveenbiz.github.io/etoolhubfe",
   "scripts": {
-      "deploy": "gh-pages -d dist"
-  },
+    "deploy": "npm run build && gh-pages -d dist -b master"
+ },
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.0.2",
